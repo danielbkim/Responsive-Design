@@ -72,6 +72,7 @@ h1, h2, h3 {
     letter-spacing: 3px;
     text-align: center;
     font-weight: 700;
+    color: white;
 };
 
 h1 {
@@ -100,7 +101,7 @@ nav {
     justify-content: space-between;
     width: 100%;
     /* changing later */
-    background-color: orange;
+    background-color: #00b894;
 }
 
 .logo {
@@ -134,4 +135,17 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+
+button {
+    margin-top: 10%;
+    width: 70%;
+    padding: 4%;
+    font-size: 2rem;
+    background-color: #00b894;
+    border: none;
+    color: white;
+    /* padding */
+    text-decoration: none;
+    border-radius: 5px;
 }
