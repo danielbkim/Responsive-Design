@@ -68,11 +68,18 @@ body {
     color: #4f4f4f;
 }
 
-h1, h2, h3 {
+h1 {
     letter-spacing: 3px;
     text-align: center;
     font-weight: 700;
     color: white;
+}
+
+h2, h3 {
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 700;
+    color: #2d3436;
 };
 
 h1 {
@@ -131,10 +138,10 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    /* background-image: url('filepath'); */
+    background-image: url('/assets/plant.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 .projects-button {
@@ -172,18 +179,19 @@ nav {
 }
 
 #project-grid div {
-    /* width: 10%; */
+    width: 60%;
+    /* width: %; */
 }
 
 .container {
     /* width: 40%; */
     display: flex;
     text-align: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .container img {
-    width: 10%;
+    /* width: 10%; */
 }
 
 
