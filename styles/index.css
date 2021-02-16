@@ -52,7 +52,7 @@ table {
 * {
     box-sizing: border-box;
 	max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html {
@@ -179,6 +179,7 @@ nav {
     color: white;
     /* padding */
     text-decoration: none;
+    font-weight: 700;
 }
 
 /* Project Grid Sections */
@@ -199,6 +200,7 @@ nav {
 .border-radius h2 {
     /* why does align-items force the h2 into its container */
     height: 20%;
+    border-radius: 10px;
 }
 
 #project-grid h2 {
@@ -226,6 +228,10 @@ nav {
 
 .tile {
     width: 30%;
+    text-align: center;
+    margin: 1.6%;
+    padding: 2%;
+    border-bottom: 5px solid #B2BEC3;
 }
 
 
